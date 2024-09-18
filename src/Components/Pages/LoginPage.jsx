@@ -2,9 +2,12 @@ import React from 'react'
 
 const LoginPage = () => {
   return (
-    <div>
-      Login Page
-    </div>
+      <form className='login'>
+        <h1>LogIn</h1>
+        <input type="text" placeholder='UserName' />
+        <input type="password" placeholder='Password' />
+        <button>LogIn</button>
+      </form>
   )
 }
 
