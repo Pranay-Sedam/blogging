@@ -1,0 +1,32 @@
+.post-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-detail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.post-detail h1 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.post-detail p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+
+.post-detail p strong {
+  font-weight: bold;
+}
+
+.post-detail p:last-child {
+  margin-bottom: 20px;
+}

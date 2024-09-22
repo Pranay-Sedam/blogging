@@ -1,0 +1,86 @@
+/* App.css */
+
+/* Global body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* This keeps the heading on the left and buttons on the right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Heading styling */
+.button-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Change color on hover */
+.button-container h1:hover {
+    color: #007bff;
+}
+
+/* Button group styles (keep buttons together on the right) */
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Button styles */
+.button-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effects */
+.button-group button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-group {
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+
+    .button-group button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

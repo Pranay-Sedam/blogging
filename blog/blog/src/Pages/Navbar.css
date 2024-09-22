@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-heading {
+    color: blue;
+    font-size: 24px;
+    margin-left: 2rem;
+  }
+  
